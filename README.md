@@ -1,2 +1,2 @@
 # Isotope-Finder
-My very first original project :) -> HTML, PHP, CSS, MySQL
+My very first original project :) -> HTML, PHP, CSS, MySQL, JavaScript

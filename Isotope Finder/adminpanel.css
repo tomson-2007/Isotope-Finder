@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(29, 172, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#logowanie {
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    border: 2px solid rgb(29, 172, 207);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#edycja_uzytkownikow, #edycja_danymi, #edycja_zastosowaniami, #edycja_administracji {
+    background-color: black;
+    color: rgb(29, 172, 207);
+    border: none;
+    border-left: 2px solid rgb(29, 172, 207);
+    border-right: 2px solid rgb(29, 172, 207);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button {
+    background-color: black;
+    color: rgb(29, 172, 207);
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5%;
+    border: none;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+td, th {
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+#data, .rows {
+    border: 1px solid rgb(29, 172, 207);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    border: 1px solid rgb(29, 172, 207);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+input {
+    border: 1px solid rgb(29, 172, 207);
+    background-color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
